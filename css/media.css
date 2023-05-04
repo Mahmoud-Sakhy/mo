@@ -1,0 +1,326 @@
+@media (max-width: 767px) {
+  .login h1,
+  .welcome h1 {
+    font-size: 10rem;
+  }
+  section {
+    height: 74vh;
+  }
+  .he {
+    height: 75vh;
+  }
+  .stud {
+    height: 74vh;
+  }
+  .fle {
+    flex: 0 0 auto;
+    width: 50% !important;
+  }
+  .no-wid {
+    width: 85% !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .btn-primary {
+    min-width: 39rem;
+    min-height: 12rem;
+    font-size: 3.5rem;
+  }
+  .btn-primary svg {
+    font-size: 5rem;
+  }
+
+  .topics {
+    height: 25rem;
+    padding: 5rem;
+  }
+  .topics h3,
+  .topics h1 svg {
+    font-size: 6rem;
+  }
+  .login .tex {
+    height: 15%;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .siz {
+    width: 70%;
+  }
+  .welcome {
+    width: 100%;
+    height: 40%;
+  }
+  .login {
+    width: 100%;
+    height: 60%;
+  }
+  .login .for {
+    height: 50%;
+  }
+  .texh1 {
+    height: 25%;
+  }
+  form .Email,
+  .Password {
+    margin-top: 4rem;
+    padding: 2rem;
+
+    font-size: 5rem;
+  }
+  .input-group-text {
+    padding: 2rem;
+    font-size: 5rem;
+    width: 30rem;
+  }
+  .log {
+    font-size: 5rem;
+    width: 90%;
+    height: 80%;
+    padding: 3rem;
+  }
+  .login .tex {
+    align-items: flex-end;
+  }
+  .login .for {
+    align-items: center;
+  }
+  .login .clek {
+    align-items: flex-start;
+  }
+  .btn-secondary {
+    font-size: 6rem;
+    padding: 1.5rem;
+  }
+  .home-for-form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    margin-top: 15rem;
+  }
+  .link {
+    width: 100%;
+    height: 15rem;
+  }
+  .link a {
+    font-size: 3.5rem;
+  }
+  .home {
+    height: 17vh;
+  }
+  .fl-nowr {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+  }
+  .big-cart {
+    width: 30%;
+  }
+  .cart {
+    right: 0rem;
+    width: 45rem;
+    height: 45rem;
+  }
+  .edt {
+    width: 20%;
+  }
+  .edt img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .wedth-form {
+    font-size: 3rem;
+    width: 33rem;
+    padding: 2rem;
+  }
+  .student-gender {
+    margin-top: 20rem;
+    margin: 17rem auto;
+    height: 20vh;
+  }
+  .student {
+    margin-top: 20rem;
+    margin: 35rem auto 0 auto;
+    height: 27vh;
+  }
+  .stu-top,
+  .stu-tow h2 {
+    font-size: 6rem;
+  }
+  .add {
+    height: 0;
+  }
+  .mya {
+    font-size: 6rem;
+    padding: 2rem;
+  }
+  .cart-tow .fa-user-group {
+    font-size: 5rem;
+  }
+  .froom {
+    margin-top: 5rem;
+  }
+  .male,
+  .Female {
+    font-size: 5rem;
+  }
+  .cart-oen h1,
+  .cart-three h2,
+  .cart-for h3 {
+    font-size: 4rem;
+  }
+  .male-coler,
+  .female-coler {
+    width: 40rem;
+    height: 40rem;
+    font-size: 9rem;
+  }
+  html {
+    overflow: hidden !important;
+  }
+  footer h2 {
+    font-size: 6rem;
+  }
+  .home-mange {
+    height: 15vh;
+  }
+  .teb {
+    padding: 0;
+  }
+  .table {
+    font-size: 4rem;
+    padding: 0rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .login h1,
+  .welcome h1 {
+    font-size: 6rem;
+  }
+  html {
+    overflow: hidden !important;
+  }
+  .home {
+    height: 15vh;
+  }
+  .student-gender,
+  .student {
+    height: 20vh;
+  }
+
+  .stud {
+    height: 50vh;
+  }
+  .big-cart {
+    display: flex;
+    align-items: center;
+    width: 93%;
+    justify-content: center;
+    gap: 10rem;
+    position: absolute;
+  }
+  .cart {
+    right: 7rem;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .siz {
+    width: 50%;
+  }
+  .texh1 {
+    height: 20%;
+  }
+  .welcome {
+    width: 100%;
+    height: 35%;
+  }
+  .login {
+    width: 100%;
+    height: 60%;
+  }
+  .login .for {
+    height: 35%;
+  }
+  .login .clekP {
+    align-items: flex-end;
+  }
+  .link {
+    height: 10rem;
+  }
+  .link a {
+    font-size: 3rem;
+  }
+  .edt img {
+    width: 10rem;
+  }
+  .btn-primary {
+    min-width: 25rem;
+    min-height: 10rem;
+    font-size: 3rem;
+  }
+  .svg-inline--fa {
+    font-size: 3rem;
+  }
+  .topics h3 {
+    font-size: 3rem;
+  }
+  .topics {
+    height: 20rem;
+  }
+  form .Email,
+  .Password {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+  }
+  .input-group-text {
+    padding: 1rem;
+    font-size: 5rem;
+    width: 30rem;
+  }
+  .log {
+    font-size: 4rem;
+    width: 90%;
+    height: 85%;
+    padding: 3rem;
+  }
+  .he {
+    height: 44vh;
+  }
+  .home-mange {
+    height: 10vh;
+  }
+  .login .tex {
+    align-items: flex-end;
+    height: 8%;
+  }
+  .login .for {
+    align-items: center;
+  }
+  .login .clek {
+    align-items: flex-start;
+  }
+  .btn-secondary {
+    font-size: 6rem;
+    padding: 1.5rem;
+  }
+  .teb {
+    padding: 0;
+  }
+  .table {
+    font-size: 3rem;
+    padding: 0rem;
+  }
+}
+/* home */
+/* home */
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
